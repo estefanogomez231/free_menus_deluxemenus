@@ -1,5 +1,9 @@
 # Esta configuracion ha sido creado por GatoPrime, si deseas ver mas codigos gratis, puedes ir a: https://github.com/estefanogomez231
 # Este codigo puede ser compartido y usado las veces que sea, esta hecho con el proposito de ayudar a nuevos configuradores principiantes en poder entregar un trabajo mejor hecho.
+#
+# Este archivo va en la carpeta de "gui_menus", dentro de la carpeta del plugin de DeluxeMenus
+# Recuerde que este Menu esta hecho unicamente para versiones +1.16
+#
 menu_title: '&8Menú de Warps' # Nombre que aparece en la parte superior del menu
 open_command: warps
 size: 57
