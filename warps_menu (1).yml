@@ -1,0 +1,120 @@
+# Esta configuracion ha sido creado por GatoPrime, si deseas ver mas codigos gratis, puedes ir a: https://github.com/estefanogomez231
+# Este codigo puede ser compartido y usado las veces que sea, esta hecho con el proposito de ayudar a nuevos configuradores principiantes en poder entregar un trabajo mejor hecho.
+menu_title: '&8Menú de Warps' # Nombre que aparece en la parte superior del menu
+open_command: warps
+size: 57
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: mypermission.warp # Permiso que se requirara para ejecutar el comando y abrir el menu
+      deny_commands:
+        - '[message] &4&lERROR &8» &fNo tienes permiso para ejecutar este comando.' # Este texto sera enviado al usuario que ejecute el comando sin tener los permisos necesarios.
+items:
+  'warp_arenapvp': # Warp ArenaPvP
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmZWU5ZjU3M2E3MzFlYzkzMTZmMTY3ZGY2MTFkZTNmOTc2ZWYyNjc5MzFjNDdjNjA0NDFiNTBjNTBkZmRlNiJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 10
+    # Numero de hueco en el que aparece este item.
+    priority: 1
+    display_name: '&#FF0000&lZ&#EC0000&lO&#D80000&lN&#C50000&lA &#B10000&lA&#9E0000&lR&#8A0000&lE&#770000&lN&#630000&lA&#500000&lP&#3C0000&lV&#290000&lP &7(PvP & Koths)' # Nombre RGB creado en https://minecraft.menu/minecraft-rgb-generator
+    lore:
+    - '&c» &fEnfrentate entre oponentes o clanes,' # Se te recomienda que edites el lore a tu gusto, para una mejor personalizacion.
+    - '   &funa arena hecha para el combate a'
+    - '   &fmuerte y conviertase en el mejor.'
+    - ''
+    - '&c&nImportante&c:'
+    - ''
+    - '&c» &fRecuerda que puedes perder tus cosas en este warp.'
+    - '&c» &fRecuerda leer las reglas en &c/rules-arenapvp .'
+    - '&c» &fEl Fly esta desactivado en esta zona.'
+    - ''
+    - '&c(Click para teletransportarte)'
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #  requirements:
+    #    arenapvp_permission:
+    #      type: has permission
+    #      permission: 'essentials.warps.arenapvp' # Este permiso proviene de EssentialsX, en el caso que tu uses otro plugin para tus warps, simplemente cambias el permiso para que puedan ver este item
+    click_commands:
+    - '[player] warp ArenaPvP' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+  'warp_crates': # Warp Crates
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjExOTY3M2RiNjFlY2JkNDJiYjE0ZmJjYjU2MjMwZmM1ZDhkZjA4OWEwODE3ZWI5MDg4OWQ1MzhiOGExNzM4YiJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    display_name: '&#F86800&lZ&#E36000&lO&#CE5800&lN&#B95000&lA &#A44800&lC&#8F4000&lR&#7A3800&lA&#653000&lT&#502800&lE&#3B2000&lS &7(Cajas Especiales)' # Nombre RGB creado en https://minecraft.menu/minecraft-rgb-generator
+    slot: 13
+    # Numero de hueco en el que aparece este item.
+    lore:
+    - '&6» &fEn esta zona podras encontrar crates' # Se te recomienda que cambies el lore a tu gusto para una mejor personalizacion.
+    - '   &fcon recompensas increibles.'
+    - ''
+    - '&e&nCajas Disponibles:'
+    - ''
+    - '&e» &fNameOfCrate1'
+    - '&e» &fNameOfCrate2'
+    - '&e» &fNameOfCrate3'
+    - ''
+    - '&6(Click para teletransportarte)'
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #  requirements:
+    #    arenapvp_permission:
+    #      type: has permission
+    #      permission: 'mypermission.crates' # Este permiso es custom, si usas LuckPerms debes usar el siguiente comando para añadir el permiso a un grupo (/lp group {nameofgroup} permission set mypermission.crates)
+    click_commands:
+    - '[player] warp Crates' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+  'warp_rtp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIwZjNhM2Q2ZjBjZTI0Mjc2MzdmZTYwZGE5ZDZkMGZlYjJkOGRmMGJjZmIyNzI5MWJiNzhjNjAwNjBlZmUzZSJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 16
+    # Numero de hueco en el que aparece este item.
+    display_name: '&#23F800&lZ&#21ED00&lO&#20E200&lN&#1ED700&lA &#1DCC00&lR&#1BC000&lA&#19B500&lN&#18AA00&lD&#169F00&lO&#159400&lM &#138900&lT&#127E00&lE&#107300&lL&#0E6700&lE&#0D5C00&lP&#0B5100&lO&#0A4600&lR&#083B00&lT &7(Ramdom Teleport)' # Nombre RGB creado en https://minecraft.menu/minecraft-rgb-generator
+    lore:
+    - '&a» &fEn este zona podras ir a lugares aleatorios' # Se te recomienda que cambies el lore a tu gusto para una mejor personalizacion.
+    - '   &fen diferentes tipos de mundo como: normal,'
+    - '   &fnether y end.'
+    - ''
+    - '&2&nTipos de Mundos:'
+    - ''
+    - '&2» &aWorld Normal'
+    - '&2» &6World Nether'
+    - '&2» &dWorld Ender'
+    - ''
+    - '&2(Click para teletransportarte)'
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #  requirements:
+    #    arenapvp_permission:
+    #      type: has permission
+    #      permission: 'mypermission.rtp' # Este permiso es custom, si usas LuckPerms debes usar el siguiente comando para añadir el permiso a un grupo (/lp group {nameofgroup} permission set mypermission.rtp)
+    click_commands:
+    - '[player] warp Rtp' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+  'warp_tradeos':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUwMTFhYWM4MTcyNTlmMmI0OGRhM2U1ZWYyNjYwOTQ3MDM4NjY2MDhiM2Q3ZDE3NTQ0MzJiZjI0OWNkMjIzNCJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    display_name: '&#00E9F8&lZ&#00D8E5&lO&#00C6D2&lN&#00B5BE&lA &#00A3AB&lT&#009298&lR&#008185&lA&#006F72&lD&#005E5E&lE&#004C4B&lO&#003B38&lS &7(Tradeos)' # Nombre RGB creado en https://minecraft.menu/minecraft-rgb-generator
+    slot: 31
+    lore:
+    - '&b» &fEn esta zona podras tradear diferentes tipos de' # Se te recomienda que cambies el lore a tu gusto para una mejor personalizacion.
+    - '  &fmateriales e armaduras, este sera tu lugar' 
+    - '  &fpreferido'
+    - ''
+    - '&b&nTradeos Disponibles:'
+    - ''
+    - '&9» &fArmaduras'
+    - '&9» &fPociones'
+    - '&9» &fEspadas'
+    - ''
+    - '&b(Click para teletransportarte)'
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #  requirements:
+    #    arenapvp_permission:
+    #      type: has permission
+    #      permission: 'mypermission.tradeos' # Este permiso es custom, si usas LuckPerms debes usar el siguiente comando para añadir el permiso a un grupo (/lp group {nameofgroup} permission set mypermission.crates)
+    click_commands:
+    - '[player] warp Tradeos' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+  'proximamente_1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 28
+    display_name: '&#F80707&lP&#E30606&lR&#CF0505&lO&#BA0404&lX&#A50303&lI&#900202&lM&#7C0101&lA&#670000&lM&#5D0000&lE&#520000&lN&#480000&lT&#3E0000&lE&#340000&l.&#290000&l.&#1F0000&l.'
+  'proximamente_2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 34
+    display_name: '&#F80707&lP&#E30606&lR&#CF0505&lO&#BA0404&lX&#A50303&lI&#900202&lM&#7C0101&lA&#670000&lM&#5D0000&lE&#520000&lN&#480000&lT&#3E0000&lE&#340000&l.&#290000&l.&#1F0000&l.'
