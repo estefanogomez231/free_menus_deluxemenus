@@ -33,7 +33,7 @@ items:
     - '&c» &fEl Fly esta desactivado en esta zona.'
     - ''
     - '&c(Click para teletransportarte)'
-    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 36, 37, 38, 39, 40.
     #  requirements:
     #    arenapvp_permission:
     #      type: has permission
@@ -57,7 +57,7 @@ items:
     - '&e» &fNameOfCrate3'
     - ''
     - '&6(Click para teletransportarte)'
-    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 60, 61, 62, 63, 64.
     #  requirements:
     #    arenapvp_permission:
     #      type: has permission
@@ -82,7 +82,7 @@ items:
     - '&2» &dWorld Ender'
     - ''
     - '&2(Click para teletransportarte)'
-    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 85, 86, 87, 88, 89.
     #  requirements:
     #    arenapvp_permission:
     #      type: has permission
@@ -106,7 +106,7 @@ items:
     - '&9» &fEspadas'
     - ''
     - '&b(Click para teletransportarte)'
-    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 29, 30, 31, 32, 33.
+    #view_requirement: # Si deseas activar que los usuarios necesiten un permiso para poder ver este item solo elimina los primeras "#" de las lineas 109, 110, 111, 112, 113.
     #  requirements:
     #    arenapvp_permission:
     #      type: has permission
