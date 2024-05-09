@@ -113,7 +113,7 @@ items:
     #      permission: 'mypermission.tradeos' # Este permiso es custom, si usas LuckPerms debes usar el siguiente comando para añadir el permiso a un grupo (/lp group {nameofgroup} permission set mypermission.crates)
     click_commands:
     - '[player] warp Tradeos' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
-    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu
   'proximamente_1':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     slot: 28
