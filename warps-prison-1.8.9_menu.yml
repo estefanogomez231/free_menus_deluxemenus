@@ -1,0 +1,140 @@
+# Este menu ha sido configurado por GatoPrime, si quieres mas menus gratuitos visita (https://github.com/estefanogomez231)
+# IMPORTANTE: Este es un menu hecho por el plugin DeluxeMenu.
+# 
+# Recuerda que puedes compartir esta configuracion con tus compañeros, amigos, conocidos, a todo mundo!
+#
+# Unete a nuestra comunidad de Discord y aprovecha codigos antes del lanzanmiento en GitHub (https://discord.gg/uRpEGKFFzs)
+menu_title: '&8Menu de Warps' # Titulo Superior del Menu
+open_command: warp-prison # Comando que se usuara para abrir el menu
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: mypermission.warp # Permiso que se requirara para ejecutar el comando y abrir el menu
+      deny_commands:
+        - '[message] &4&lPRISON &8» &fNo tienes permiso para ejecutar este comando.' # Este texto sera enviado al usuario que ejecute el comando sin tener los permisos necesarios.
+items:
+  'minas-publicas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRkMzA2ZDlhZGExMzMyMWJkZjhjZjUyODU3N2FkNGJjMjQxYjEyZTYwNzg2ZTM4MWJlMTc5OGE2YzZkNmNhZCJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 10
+    # Numero de hueco en el que aparece este item.
+    display_name: '&b「 Minas Publicas 」 &7(Rankup & Prestige)'
+    lore:
+      - ''
+      - '&b▐ &fEstas minas cualquier usuario las puede conseguir'
+      - '&b▐ &funicamente necesitas tener el rango o prestigio'
+      - '&b▐ &frequerido para cada una.'
+      - '&b▐'
+      - '&b▐ &fMinas Rankups:'
+      - '&b▐ &9↳ &nA - Z'
+      - '&b▐'
+      - '&b▐ &fMinas Prestige:'
+      - '&b▐ &9↳ &nP1 - P100&r'
+      - '&b▐'
+      - '&b▐ &9(Clic para acceder al menu de Minas Publicas)'
+    click_commands:
+    - '[openguimenu] minaspublicas' # El comando tipo "[openguimenu]" funciona para que al momento de activarlo te lleve a otro menu. example: '[openguimenu] examplemenu'
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] BLOCK_CHEST_OPEN' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
+  'minas-vip':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiNWZkZWZmZmZmYTcwODM4MWU3MGYzNTAzYTI3NTc3MmI0NTI5NmNmOWYxNjI1YTg3ZWRjNmI2MjU0OWVmNiJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 16
+    display_name: '&6「 Minas VIP 」 &7(Minas Exclusivas)'
+    lore:
+      - ''
+      - '&6▐ &fEstas minas son exclusivas para los usuarios'
+      - '&6▐ &fque poseen rangos de paga o tengan rangos'
+      - '&6▐ &fque tengan este beneficio.'
+      - '&6▐'
+      - '&6▐ &fMinas Exclusivas:'
+      - '&6▐ » &e&lVIP &7(Mina VIP)' # Esto solo es un ejemplo, lo puedes editar a tu gusto.
+      - '&6▐ » &e&lVIP+ &7(Mina VIP+)'
+      - '&6▐ » &e&lVIP++ &7(Mina VIP++)'
+      - '&6▐ '
+      - '&6▐ (Clic para ver el menu de Minas Privadas)'
+    click_commands:
+    - '[openguimenu] minasprivadas' # El comando tipo "[openguimenu]" funciona para que al momento de activarlo te lleve a otro menu. example: '[openguimenu] examplemenu'
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] BLOCK_CHEST_OPEN' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
+  'mina-pvp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VmMTE5ZjA4ODUxYTcyYTVmMTBmYmMzMjQ3ZDk1ZTFjMDA2MzYwZDJiNGY0MTJiMjNjZTA1NDA5Mjc1NmIwYyJ9fX0=
+    slot: 13
+    display_name: '&c「 Mina PvP 」 &7(Mina PvP & KOTH)'
+    lore:
+      - ''
+      - '&c▐ &fEn esta mina obtendras mejores recompensas al'
+      - '&c▐ &fmomento de minar, pero tendras que'
+      - '&c▐ &fenfrentarte a adversarios.'
+      - '&c▐'
+      - '&c▐ &c&nImportante:'
+      - '&c▐'
+      - '&c▐ » &fPvP: &aON'
+      - '&c▐ » &fKeep Inventory: &4OFF'
+      - '&c▐ '
+      - '&c▐ (Click para teletransportarte a la Mina PvP)'
+    click_commands:
+    - '[player] warp minapvp' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] ITEM_CHORUS_FRUIT_TELEPORT' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
+  'koths':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmZWU5ZjU3M2E3MzFlYzkzMTZmMTY3ZGY2MTFkZTNmOTc2ZWYyNjc5MzFjNDdjNjA0NDFiNTBjNTBkZmRlNiJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 28
+    display_name: '&4「 Lista de KOTHs 」 &7(KOTHs & Recompensas Unicas)'
+    lore:
+      - ''
+      - '&4▐ &fEn los KOTHs podras obtener increibles recompensas,'
+      - '&4▐ &fsolamente tienes que aguantar en el punto de'
+      - '&4▐ &fde captura para poder reclamarlos.'
+      - '&4▐'
+      - '&4▐ &fKOTHs Disponibles:'
+      - '&4▐ » &fKoth1'
+      - '&4▐ » &fKoth2'
+      - '&4▐ » &fKoth3'
+      - '&4▐'
+      - '&4▐ (Clic para ver el menu de KOTHs)'
+    click_commands:
+    - '[openguimenu] koths' # El comando tipo "[openguimenu]" funciona para que al momento de activarlo te lleve a otro menu. example: '[openguimenu] examplemenu'
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] BLOCK_CHEST_OPEN' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
+  'tradeo':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQzZjk3NDJlNTI5ODY2OGQzMjdkMmIzMDViZDA4MDA4MmZkZWExMjc2M2MwZTVhYWQyZmY3YjkyZWZkNDU3ZCJ9fX0=
+    slot: 34
+    display_name: '&a「 Zona de Tradeo 」 &7(Tradeos & Armaduras OP)'
+    lore:
+      - ''
+      - '&a▐ &fEn esta zona podras conseguir materiales custom,'
+      - '&a▐ &fcon estos podras conseguir armaduras, llaves,'
+      - '&a▐ espadas y muchas cosas mas.'
+      - '&a▐'
+      - '&a▐ &a&nTradeos Disponibles&a:'
+      - '&a▐'
+      - '&a▐ » &fArmaduras'
+      - '&a▐ » &fEspadas'
+      - '&a▐ » &fLlaves'
+      - '&a▐ '
+      - '&a▐ (Clic para ir a la Zona de Tradeos)'
+    click_commands:
+    - '[player] warp tradeos' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] ENTITY_VILLAGER_AMBIENT' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
+  'warp-afk':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzgxZGNkYjVhMDE3MzhiN2JjYzc0YTNjNWU3ZWQwMThhYjgyMTFkYTJhNTBlMWI2ZWRkNGQwYzgwNzUyNDJkMSJ9fX0= # Tu puedes cambiar este estilo de cabeza en https://minecraft-heads.com/, solamente copia el VALUE en el apartado "For Developers", si necesitas mas ayuda solicitalo al siguiente discord: https://discord.gg/4vA3BFT5dF
+    slot: 31
+    display_name: '&d「 Zona AFK 」 &7(Gana Recompensas)'
+    lore:
+      - ''
+      - '&d▐ &fEn esta zona podras quedarte AFK y'
+      - '&d▐ &fpodras recibir increibles'
+      - '&d▐ &frecompensas.'
+      - '&d▐'
+      - '&d▐ &d&nRecompensas&d: &7(15 Minutos)'
+      - '&d▐'
+      - '&d▐ » &e1k de Tokens.'
+      - '&d▐ » &a5k de Dinero.'
+      - '&d▐ '
+      - '&d▐ (Clic para ir a la Zona AFK)'
+    click_commands:
+    - '[player] warp afk' # El comando tipo "[player]" funciona para que el comando sea ejecutado desde el usuario, lo que permite saber si el usuario tiene el permiso necesario para ir a este warp.
+    - '[close]' # El comando tipo [close] sirve para cerrar el menu.
+    - '[sound] ITEM_CHORUS_FRUIT_TELEPORT' # Este tipo de sonido solo funciona para la version +1.12.2 (Wiki de sonidos: https://helpch.at/docs/1.12.2/org/bukkit/Sound.html)
